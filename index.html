@@ -13,6 +13,10 @@ Hello everybody.<br/>
 var pic = document.createElement("img");
 pic.src = "architecture-beach-city-1285625.jpg";
   document.body.appendChild(pic);
+  
+  pic.style.height = '100px';
+    pic.style.width = '200px';
+  
 var a = 5;
 var b = 6;
 function add(first, second){
@@ -22,7 +26,7 @@ return ans;
 
 alert(add(a, b));
 </script>
-  //<img src="architecture-beach-city-1285625.jpg" alt="pic">
+  <img src="architecture-beach-city-1285625.jpg" id="pic" alt="pic">
   
   </body>
 </head>
